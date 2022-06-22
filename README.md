@@ -172,12 +172,11 @@ Target path should contain only the files to rename
 **Call fileRename method:**
 
 >> v.fileRename(method='case',cpath=None,tcase=None,tgt=None,repl=None)
->>
 
-*method:* 'case'|'char'
-*cpath:* custom output path
-*tcase:* if method='case', 'title'|'lower'|'upper'
-*tgt,repl:* if method='char', single characters representing "what to target for replacement" and "what to replace with", respectively
+- *method:* 'case'|'char'
+- *cpath:* custom output path
+- *tcase:* if method='case', 'title'|'lower'|'upper'
+- *tgt,repl:* if method='char', single characters representing "what to target for replacement" and "what to replace with", respectively
 
 ---
 
