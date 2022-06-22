@@ -165,8 +165,8 @@ IF the values check out, then call \_\_renamer\_\_().  Depending on the 'method'
 Target path should contain only the files to rename
 
 >> import bulkrenamer
+
 >> v = bulkrenamer.Catalogue('./path')
->>
 
 
 **Call fileRename method:**
